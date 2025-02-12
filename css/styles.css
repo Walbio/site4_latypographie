@@ -28,10 +28,127 @@ ELEMENT
     border-radius: 50%;
     border: 5px solid #D35400;
     text-align: center;
-    line-height: 210px
+    background-color: white;
+}
+
+body{
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", serif;
+}
+
+/*--------------------------------------------------------------
+COMPONENT
+--------------------------------------------------------------*/
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 96px;
+    letter-spacing: 32px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin: 0%;
+}
+
+header{
+    background-color: #34495E;
+}
+
+.slogan{
+        padding-top: 45px;
+        padding-bottom: 45px;
+}
+
+section h2{
+        display: flex;
+        justify-content: flex-end;
+        font-family: "Lato", serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 48px;
+        letter-spacing: 2.64px;
+        margin: 0;
+}
+
+.cercle p{
+    font-family: "Quicksand", serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    color: #D35400;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article.guill, article.veuve {
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+article.guill h3, article.veuve h3 {
+    padding-left: 70px;
+}
+
+article.espace, article.hauteur {
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+article.espace h3, article.hauteur h3 {
+    padding-right: 70px;
+}
+
+article h3 {
+    font-family: "Quicksand", serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+article:hover{
+    background-color:#BDC3C7;
+}
+
+section.info .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 60px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+footer{
+    background-color: #2980B9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between
 }
 
 .fleche {
     max-width: 50px;
     max-height: 50px;
+}
+
+footer a{
+    max-width: 50px;
+    max-height: 50px
 }
