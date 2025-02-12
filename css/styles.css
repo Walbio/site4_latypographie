@@ -130,6 +130,7 @@ section.info .wrapper{
     font-family: "Roboto", serif;
     font-size: 20px;
     line-height: 40px;
+    margin-bottom: 15px;
 }
 
 footer{
@@ -144,11 +145,6 @@ footer .wrapper{
 }
 
 .fleche {
-    max-width: 50px;
-    max-height: 50px;
-}
-
-footer a{
-    max-width: 50px;
-    max-height: 50px
+   width: 50px;
+   height: 50px;
 }
