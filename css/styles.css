@@ -1,0 +1,37 @@
+/*--------------------------------------------------------------
+BASE
+--------------------------------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*--------------------------------------------------------------
+ELEMENT
+--------------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.cercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 5px solid #D35400;
+    text-align: center;
+    line-height: 210px
+}
+
+.fleche {
+    max-width: 50px;
+    max-height: 50px;
+}
